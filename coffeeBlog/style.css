@@ -1,0 +1,108 @@
+/*global*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: arial;
+}
+
+p {
+    line-height: 2;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*utilities*/
+
+
+
+/*header*/
+
+.site-init {
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+
+/*main*/
+.readMore {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 0.2rem;
+    margin-bottom: 2rem;
+    padding: 10px 10px;
+    font-size: 0.8rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.moreInfo {
+    display: inline-block;
+    background-color: #85480c;
+    color: white;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 0.2rem;
+    margin-bottom: 2rem;
+    padding: 10px 10px;
+    font-size: 0.8rem;
+}
+
+.course-container {
+    margin: 1rem 0;
+}
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+/*footer*/
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.footer-links {
+    margin-top: 1rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-links ul li {
+    margin-right: 20px;
+}
+
+.footer-links ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
